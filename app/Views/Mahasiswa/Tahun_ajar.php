@@ -46,7 +46,7 @@
                               <td class="text-center"><a><span class="badge badge-danger"><i class=" ri-close-fill"></i></span></a></td>
                               <?php } ?>
                               <td><center><a onclick="return confirm('Yakin Mau Menghapus Data Ini ? ')" href="<?php echo base_url('/delete_tahun/'.$data->id) ?>"><span class="badge badge-danger"><i class="ri-close-fill"></i></span></a> 
-                              <a href="<?php echo base_url('/edit_tahun_page/'.$data->id) ?>"><span class="badge badge-primary"><i class="fas fa-edit"></i></span></a></center></td>
+                              <a href="<?php echo base_url('/edit_tahun_page/'.$data->id) ?>"><span class="badge badge-primary"><i class=" ri-file-edit-fill"></i></span></a></center></td>
 
                             </tr>
                           <?php endforeach; ?>

@@ -156,5 +156,15 @@ class Mahasiswa_controller extends BaseController
         $this->Tahun_ajaran_model->edit_post($id, $data); 
         return redirect()->to('/tahun_ajaran');
     }
+
+    public function list_semester()
+    {
+        $model = new Mahasiswa_model();
+        $semester = array (
+            'semester' => $model->list_semester()->getResult()
+        );
+        return view('Mahasiswa/Semester_page', $semester);
+
+    }
     
 }

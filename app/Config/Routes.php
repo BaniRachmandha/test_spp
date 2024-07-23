@@ -41,3 +41,4 @@ $routes->post('/tambah_ajaran_baru', 'Mahasiswa_controller::add_tahun');
 $routes->get('/edit_tahun_page/(:num)', 'Mahasiswa_controller::page_edit/$1');
 $routes->post('/edit_tahun/(:num)', 'Mahasiswa_controller::edit/$1');
 $routes->get('/delete_tahun/(:num)', 'Mahasiswa_controller::delete/$1');
+$routes->get('/semester', 'Mahasiswa_controller::list_semester');

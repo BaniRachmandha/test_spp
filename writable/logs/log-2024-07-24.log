@@ -1,0 +1,30 @@
+INFO - 2024-07-24 06:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-24 06:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-24 06:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-24 06:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-24 06:13:36 --> Undefined property: stdClass::$id_semester
+in APPPATH\Views\Mahasiswa\Semester_page.php on line 44.
+ 1 APPPATH\Views\Mahasiswa\Semester_page.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_semester', 'C:\\laragon\\www\\Sistem-pembayaran\\app\\Views\\Mahasiswa\\Semester_page.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\Sistem-pembayaran\\app\\Views\\Mahasiswa\\Semester_page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Mahasiswa/Semester_page', [], true)
+ 5 APPPATH\Controllers\Mahasiswa_controller.php(166): view('Mahasiswa/Semester_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->list_semester()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Sistem-pembayaran\\public\\index.php')
+CRITICAL - 2024-07-24 06:14:28 --> Undefined property: stdClass::$semester
+in APPPATH\Views\Mahasiswa\Semester_page.php on line 44.
+ 1 APPPATH\Views\Mahasiswa\Semester_page.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$semester', 'C:\\laragon\\www\\Sistem-pembayaran\\app\\Views\\Mahasiswa\\Semester_page.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\Sistem-pembayaran\\app\\Views\\Mahasiswa\\Semester_page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Mahasiswa/Semester_page', [], true)
+ 5 APPPATH\Controllers\Mahasiswa_controller.php(166): view('Mahasiswa/Semester_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->list_semester()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Sistem-pembayaran\\public\\index.php')
+INFO - 2024-07-24 06:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-24 06:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
