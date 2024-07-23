@@ -1,0 +1,737 @@
+INFO - 2024-07-20 00:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:07:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:09:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:09:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 00:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-20 01:27:03 --> mysqli_sql_exception: Table 'bani_20300007.siswa' doesn't exist in C:\laragon\www\Sistem-pembayaran\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Sistem-pembayaran\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Sistem-pembayaran\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Sistem-pembayaran\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Sistem-pembayaran\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Sistem-pembayaran\app\Models\Mahasiswa_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Sistem-pembayaran\app\Controllers\Mahasiswa_controller.php(26): App\Models\Mahasiswa_model->list_mahasiswa()
+#6 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+#7 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+#8 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Sistem-pembayaran\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Sistem-pembayaran\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-07-20 01:27:03 --> Table 'bani_20300007.siswa' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `siswa`
+JOIN `semester` ON `mahasiswa`.`id_semester` = `semester`.`id_semester`
+ORDER BY `nim` DESC', [], false)
+ 2 APPPATH\Models\Mahasiswa_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Mahasiswa_controller.php(26): App\Models\Mahasiswa_model->list_mahasiswa()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Sistem-pembayaran\\public\\index.php')
+ERROR - 2024-07-20 01:27:51 --> mysqli_sql_exception: Table 'bani_20300007.siswa' doesn't exist in C:\laragon\www\Sistem-pembayaran\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Sistem-pembayaran\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Sistem-pembayaran\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Sistem-pembayaran\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Sistem-pembayaran\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Sistem-pembayaran\app\Models\Mahasiswa_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Sistem-pembayaran\app\Controllers\Mahasiswa_controller.php(26): App\Models\Mahasiswa_model->list_mahasiswa()
+#6 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+#7 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+#8 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Sistem-pembayaran\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Sistem-pembayaran\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-07-20 01:27:51 --> Table 'bani_20300007.siswa' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `siswa`
+JOIN `semester` ON `mahasiswa`.`id_semester` = `semester`.`id_semester`
+ORDER BY `nim` DESC', [], false)
+ 2 APPPATH\Models\Mahasiswa_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Mahasiswa_controller.php(26): App\Models\Mahasiswa_model->list_mahasiswa()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Sistem-pembayaran\\public\\index.php')
+ERROR - 2024-07-20 01:27:52 --> mysqli_sql_exception: Table 'bani_20300007.siswa' doesn't exist in C:\laragon\www\Sistem-pembayaran\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Sistem-pembayaran\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Sistem-pembayaran\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Sistem-pembayaran\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Sistem-pembayaran\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Sistem-pembayaran\app\Models\Mahasiswa_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Sistem-pembayaran\app\Controllers\Mahasiswa_controller.php(26): App\Models\Mahasiswa_model->list_mahasiswa()
+#6 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+#7 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+#8 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Sistem-pembayaran\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Sistem-pembayaran\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-07-20 01:27:52 --> Table 'bani_20300007.siswa' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `siswa`
+JOIN `semester` ON `mahasiswa`.`id_semester` = `semester`.`id_semester`
+ORDER BY `nim` DESC', [], false)
+ 2 APPPATH\Models\Mahasiswa_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Mahasiswa_controller.php(26): App\Models\Mahasiswa_model->list_mahasiswa()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Sistem-pembayaran\\public\\index.php')
+ERROR - 2024-07-20 01:27:53 --> mysqli_sql_exception: Table 'bani_20300007.siswa' doesn't exist in C:\laragon\www\Sistem-pembayaran\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Sistem-pembayaran\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Sistem-pembayaran\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Sistem-pembayaran\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Sistem-pembayaran\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Sistem-pembayaran\app\Models\Mahasiswa_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Sistem-pembayaran\app\Controllers\Mahasiswa_controller.php(26): App\Models\Mahasiswa_model->list_mahasiswa()
+#6 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+#7 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+#8 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Sistem-pembayaran\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Sistem-pembayaran\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-07-20 01:27:53 --> Table 'bani_20300007.siswa' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `siswa`
+JOIN `semester` ON `mahasiswa`.`id_semester` = `semester`.`id_semester`
+ORDER BY `nim` DESC', [], false)
+ 2 APPPATH\Models\Mahasiswa_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Mahasiswa_controller.php(26): App\Models\Mahasiswa_model->list_mahasiswa()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Sistem-pembayaran\\public\\index.php')
+ERROR - 2024-07-20 01:27:53 --> mysqli_sql_exception: Table 'bani_20300007.siswa' doesn't exist in C:\laragon\www\Sistem-pembayaran\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Sistem-pembayaran\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Sistem-pembayaran\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Sistem-pembayaran\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Sistem-pembayaran\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Sistem-pembayaran\app\Models\Mahasiswa_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Sistem-pembayaran\app\Controllers\Mahasiswa_controller.php(26): App\Models\Mahasiswa_model->list_mahasiswa()
+#6 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+#7 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+#8 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Sistem-pembayaran\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Sistem-pembayaran\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-07-20 01:27:53 --> Table 'bani_20300007.siswa' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `siswa`
+JOIN `semester` ON `mahasiswa`.`id_semester` = `semester`.`id_semester`
+ORDER BY `nim` DESC', [], false)
+ 2 APPPATH\Models\Mahasiswa_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Mahasiswa_controller.php(26): App\Models\Mahasiswa_model->list_mahasiswa()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Sistem-pembayaran\\public\\index.php')
+ERROR - 2024-07-20 01:27:54 --> mysqli_sql_exception: Table 'bani_20300007.siswa' doesn't exist in C:\laragon\www\Sistem-pembayaran\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Sistem-pembayaran\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Sistem-pembayaran\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Sistem-pembayaran\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Sistem-pembayaran\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Sistem-pembayaran\app\Models\Mahasiswa_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Sistem-pembayaran\app\Controllers\Mahasiswa_controller.php(26): App\Models\Mahasiswa_model->list_mahasiswa()
+#6 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+#7 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+#8 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Sistem-pembayaran\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Sistem-pembayaran\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-07-20 01:27:54 --> Table 'bani_20300007.siswa' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `siswa`
+JOIN `semester` ON `mahasiswa`.`id_semester` = `semester`.`id_semester`
+ORDER BY `nim` DESC', [], false)
+ 2 APPPATH\Models\Mahasiswa_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Mahasiswa_controller.php(26): App\Models\Mahasiswa_model->list_mahasiswa()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Sistem-pembayaran\\public\\index.php')
+ERROR - 2024-07-20 01:27:54 --> mysqli_sql_exception: Table 'bani_20300007.siswa' doesn't exist in C:\laragon\www\Sistem-pembayaran\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Sistem-pembayaran\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Sistem-pembayaran\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Sistem-pembayaran\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Sistem-pembayaran\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Sistem-pembayaran\app\Models\Mahasiswa_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Sistem-pembayaran\app\Controllers\Mahasiswa_controller.php(26): App\Models\Mahasiswa_model->list_mahasiswa()
+#6 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+#7 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+#8 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Sistem-pembayaran\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Sistem-pembayaran\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-07-20 01:27:54 --> Table 'bani_20300007.siswa' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `siswa`
+JOIN `semester` ON `mahasiswa`.`id_semester` = `semester`.`id_semester`
+ORDER BY `nim` DESC', [], false)
+ 2 APPPATH\Models\Mahasiswa_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Mahasiswa_controller.php(26): App\Models\Mahasiswa_model->list_mahasiswa()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Sistem-pembayaran\\public\\index.php')
+ERROR - 2024-07-20 01:27:55 --> mysqli_sql_exception: Table 'bani_20300007.siswa' doesn't exist in C:\laragon\www\Sistem-pembayaran\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Sistem-pembayaran\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Sistem-pembayaran\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Sistem-pembayaran\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Sistem-pembayaran\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Sistem-pembayaran\app\Models\Mahasiswa_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Sistem-pembayaran\app\Controllers\Mahasiswa_controller.php(26): App\Models\Mahasiswa_model->list_mahasiswa()
+#6 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+#7 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+#8 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Sistem-pembayaran\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Sistem-pembayaran\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-07-20 01:27:55 --> Table 'bani_20300007.siswa' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `siswa`
+JOIN `semester` ON `mahasiswa`.`id_semester` = `semester`.`id_semester`
+ORDER BY `nim` DESC', [], false)
+ 2 APPPATH\Models\Mahasiswa_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Mahasiswa_controller.php(26): App\Models\Mahasiswa_model->list_mahasiswa()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Sistem-pembayaran\\public\\index.php')
+ERROR - 2024-07-20 01:28:22 --> mysqli_sql_exception: Table 'bani_20300007.siswa' doesn't exist in C:\laragon\www\Sistem-pembayaran\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Sistem-pembayaran\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Sistem-pembayaran\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Sistem-pembayaran\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Sistem-pembayaran\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Sistem-pembayaran\app\Models\Mahasiswa_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Sistem-pembayaran\app\Controllers\Mahasiswa_controller.php(22): App\Models\Mahasiswa_model->list_mahasiswa()
+#6 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+#7 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+#8 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Sistem-pembayaran\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Sistem-pembayaran\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-07-20 01:28:22 --> Table 'bani_20300007.siswa' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `siswa`
+JOIN `semester` ON `mahasiswa`.`id_semester` = `semester`.`id_semester`
+ORDER BY `nim` DESC', [], false)
+ 2 APPPATH\Models\Mahasiswa_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Mahasiswa_controller.php(22): App\Models\Mahasiswa_model->list_mahasiswa()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Sistem-pembayaran\\public\\index.php')
+INFO - 2024-07-20 01:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 01:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-20 01:28:31 --> mysqli_sql_exception: Table 'bani_20300007.siswa' doesn't exist in C:\laragon\www\Sistem-pembayaran\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Sistem-pembayaran\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Sistem-pembayaran\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Sistem-pembayaran\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Sistem-pembayaran\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Sistem-pembayaran\app\Models\Mahasiswa_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Sistem-pembayaran\app\Controllers\Mahasiswa_controller.php(22): App\Models\Mahasiswa_model->list_mahasiswa()
+#6 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+#7 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+#8 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Sistem-pembayaran\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Sistem-pembayaran\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-07-20 01:28:31 --> Table 'bani_20300007.siswa' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `siswa`
+JOIN `semester` ON `mahasiswa`.`id_semester` = `semester`.`id_semester`
+ORDER BY `nim` DESC', [], false)
+ 2 APPPATH\Models\Mahasiswa_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Mahasiswa_controller.php(22): App\Models\Mahasiswa_model->list_mahasiswa()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Sistem-pembayaran\\public\\index.php')
+ERROR - 2024-07-20 01:28:47 --> mysqli_sql_exception: Table 'bani_20300007.siswa' doesn't exist in C:\laragon\www\Sistem-pembayaran\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Sistem-pembayaran\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Sistem-pembayaran\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Sistem-pembayaran\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Sistem-pembayaran\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Sistem-pembayaran\app\Models\Mahasiswa_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Sistem-pembayaran\app\Controllers\Mahasiswa_controller.php(22): App\Models\Mahasiswa_model->list_mahasiswa()
+#6 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+#7 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+#8 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Sistem-pembayaran\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Sistem-pembayaran\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-07-20 01:28:47 --> Table 'bani_20300007.siswa' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `siswa`
+JOIN `semester` ON `mahasiswa`.`id_semester` = `semester`.`id_semester`
+ORDER BY `nim` DESC', [], false)
+ 2 APPPATH\Models\Mahasiswa_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Mahasiswa_controller.php(22): App\Models\Mahasiswa_model->list_mahasiswa()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Sistem-pembayaran\\public\\index.php')
+ERROR - 2024-07-20 01:28:48 --> mysqli_sql_exception: Table 'bani_20300007.siswa' doesn't exist in C:\laragon\www\Sistem-pembayaran\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Sistem-pembayaran\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Sistem-pembayaran\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Sistem-pembayaran\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Sistem-pembayaran\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Sistem-pembayaran\app\Models\Mahasiswa_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Sistem-pembayaran\app\Controllers\Mahasiswa_controller.php(22): App\Models\Mahasiswa_model->list_mahasiswa()
+#6 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+#7 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+#8 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Sistem-pembayaran\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Sistem-pembayaran\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-07-20 01:28:48 --> Table 'bani_20300007.siswa' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `siswa`
+JOIN `semester` ON `mahasiswa`.`id_semester` = `semester`.`id_semester`
+ORDER BY `nim` DESC', [], false)
+ 2 APPPATH\Models\Mahasiswa_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Mahasiswa_controller.php(22): App\Models\Mahasiswa_model->list_mahasiswa()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Sistem-pembayaran\\public\\index.php')
+CRITICAL - 2024-07-20 01:36:10 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Mahasiswa_controller.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Sistem-pembayaran\\public\\index.php')
+CRITICAL - 2024-07-20 01:36:14 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Mahasiswa_controller.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Sistem-pembayaran\\public\\index.php')
+CRITICAL - 2024-07-20 01:36:21 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Mahasiswa_controller.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Sistem-pembayaran\\public\\index.php')
+CRITICAL - 2024-07-20 01:37:32 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Mahasiswa_controller.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Sistem-pembayaran\\public\\index.php')
+CRITICAL - 2024-07-20 01:37:33 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Mahasiswa_controller.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Sistem-pembayaran\\public\\index.php')
+INFO - 2024-07-20 01:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 01:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-20 01:38:29 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Mahasiswa_controller.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Sistem-pembayaran\\public\\index.php')
+INFO - 2024-07-20 01:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-20 01:44:16 --> Undefined variable $kelas
+in APPPATH\Views\Mahasiswa\List_mahasiswa.php on line 80.
+ 1 APPPATH\Views\Mahasiswa\List_mahasiswa.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelas', 'C:\\laragon\\www\\Sistem-pembayaran\\app\\Views\\Mahasiswa\\List_mahasiswa.php', 80)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\Sistem-pembayaran\\app\\Views\\Mahasiswa\\List_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Mahasiswa/List_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Mahasiswa_controller.php(24): view('Mahasiswa/List_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Sistem-pembayaran\\public\\index.php')
+INFO - 2024-07-20 01:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 01:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 01:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 01:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 01:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 01:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 01:48:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 01:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-20 01:59:24 --> Undefined property: stdClass::$no_handphone
+in APPPATH\Views\Mahasiswa\List_mahasiswa.php on line 60.
+ 1 APPPATH\Views\Mahasiswa\List_mahasiswa.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$no_handphone', 'C:\\laragon\\www\\Sistem-pembayaran\\app\\Views\\Mahasiswa\\List_mahasiswa.php', 60)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\Sistem-pembayaran\\app\\Views\\Mahasiswa\\List_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Mahasiswa/List_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Mahasiswa_controller.php(24): view('Mahasiswa/List_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Sistem-pembayaran\\public\\index.php')
+INFO - 2024-07-20 01:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 02:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 02:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 02:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-20 02:08:38 --> Undefined variable $kelas
+in APPPATH\Views\Mahasiswa\List_mahasiswa.php on line 78.
+ 1 APPPATH\Views\Mahasiswa\List_mahasiswa.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelas', 'C:\\laragon\\www\\Sistem-pembayaran\\app\\Views\\Mahasiswa\\List_mahasiswa.php', 78)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\Sistem-pembayaran\\app\\Views\\Mahasiswa\\List_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Mahasiswa/List_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Mahasiswa_controller.php(24): view('Mahasiswa/List_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Sistem-pembayaran\\public\\index.php')
+INFO - 2024-07-20 02:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 02:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 02:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 02:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 02:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 02:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 02:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 02:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 02:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 02:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-20 02:29:05 --> Undefined variable $kelas
+in APPPATH\Views\Mahasiswa\Add_mahasiswa.php on line 91.
+ 1 APPPATH\Views\Mahasiswa\Add_mahasiswa.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelas', 'C:\\laragon\\www\\Sistem-pembayaran\\app\\Views\\Mahasiswa\\Add_mahasiswa.php', 91)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\Sistem-pembayaran\\app\\Views\\Mahasiswa\\Add_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Mahasiswa/Add_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Mahasiswa_controller.php(29): view('Mahasiswa/Add_mahasiswa')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->add_data()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Sistem-pembayaran\\public\\index.php')
+INFO - 2024-07-20 02:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 02:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 02:40:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 02:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 02:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 02:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 02:42:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 02:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 15:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 15:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 15:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 15:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 15:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-20 15:19:52 --> Undefined property: stdClass::$nama
+in APPPATH\Views\Mahasiswa\List_mahasiswa.php on line 100.
+ 1 APPPATH\Views\Mahasiswa\List_mahasiswa.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama', 'C:\\laragon\\www\\Sistem-pembayaran\\app\\Views\\Mahasiswa\\List_mahasiswa.php', 100)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\Sistem-pembayaran\\app\\Views\\Mahasiswa\\List_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Mahasiswa/List_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Mahasiswa_controller.php(24): view('Mahasiswa/List_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Sistem-pembayaran\\public\\index.php')
+ERROR - 2024-07-20 15:21:33 --> mysqli_sql_exception: Column 'nim' in order clause is ambiguous in C:\laragon\www\Sistem-pembayaran\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Sistem-pembayaran\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Sistem-pembayaran\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Sistem-pembayaran\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Sistem-pembayaran\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Sistem-pembayaran\app\Models\Mahasiswa_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Sistem-pembayaran\app\Controllers\Mahasiswa_controller.php(22): App\Models\Mahasiswa_model->list_mahasiswa()
+#6 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+#7 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+#8 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Sistem-pembayaran\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Sistem-pembayaran\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-07-20 15:21:33 --> Column 'nim' in order clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`
+JOIN `semester` ON `mahasiswa`.`id_semester` = `semester`.`id_semester`
+JOIN `users` ON `mahasiswa`.`nim_id` = `users`.`nim_id`
+ORDER BY `nim` DESC', [], false)
+ 2 APPPATH\Models\Mahasiswa_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Mahasiswa_controller.php(22): App\Models\Mahasiswa_model->list_mahasiswa()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Sistem-pembayaran\\public\\index.php')
+ERROR - 2024-07-20 15:22:32 --> mysqli_sql_exception: Column 'nim' in order clause is ambiguous in C:\laragon\www\Sistem-pembayaran\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Sistem-pembayaran\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Sistem-pembayaran\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Sistem-pembayaran\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Sistem-pembayaran\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Sistem-pembayaran\app\Models\Mahasiswa_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Sistem-pembayaran\app\Controllers\Mahasiswa_controller.php(22): App\Models\Mahasiswa_model->list_mahasiswa()
+#6 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+#7 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+#8 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Sistem-pembayaran\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Sistem-pembayaran\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-07-20 15:22:32 --> Column 'nim' in order clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`
+JOIN `semester` ON `mahasiswa`.`id_semester` = `semester`.`id_semester`
+JOIN `users` ON `mahasiswa`.`nim_id` = `users`.`nim_id`
+ORDER BY `nim` DESC', [], false)
+ 2 APPPATH\Models\Mahasiswa_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Mahasiswa_controller.php(22): App\Models\Mahasiswa_model->list_mahasiswa()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Sistem-pembayaran\\public\\index.php')
+ERROR - 2024-07-20 15:23:42 --> mysqli_sql_exception: Column 'nim' in order clause is ambiguous in C:\laragon\www\Sistem-pembayaran\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Sistem-pembayaran\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Sistem-pembayaran\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Sistem-pembayaran\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Sistem-pembayaran\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Sistem-pembayaran\app\Models\Mahasiswa_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Sistem-pembayaran\app\Controllers\Mahasiswa_controller.php(22): App\Models\Mahasiswa_model->list_mahasiswa()
+#6 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+#7 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+#8 C:\laragon\www\Sistem-pembayaran\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Sistem-pembayaran\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Sistem-pembayaran\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-07-20 15:23:42 --> Column 'nim' in order clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`
+JOIN `semester` ON `mahasiswa`.`id_semester` = `semester`.`id_semester`
+JOIN `users` ON `mahasiswa`.`nim` = `users`.`nim`
+ORDER BY `nim` DESC', [], false)
+ 2 APPPATH\Models\Mahasiswa_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Mahasiswa_controller.php(22): App\Models\Mahasiswa_model->list_mahasiswa()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Sistem-pembayaran\\public\\index.php')
+INFO - 2024-07-20 15:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 15:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 15:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 15:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 15:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 15:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 15:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 17:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 17:34:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 17:34:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 17:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-20 18:13:39 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\Mahasiswa\Add_mahasiswa.php on line 87.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Mahasiswa/Add_mahasiswa', [], true)
+ 3 APPPATH\Controllers\Mahasiswa_controller.php(33): view('Mahasiswa/Add_mahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->add_data()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Sistem-pembayaran\\public\\index.php')
+INFO - 2024-07-20 18:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 18:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 18:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 18:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 18:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 18:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 18:34:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 18:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 18:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 18:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 18:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 18:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 18:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 18:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 18:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 18:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 18:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 18:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 18:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 18:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 18:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 18:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-20 18:40:12 --> Undefined variable $kelas
+in APPPATH\Views\Mahasiswa\Add_mahasiswa.php on line 91.
+ 1 APPPATH\Views\Mahasiswa\Add_mahasiswa.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelas', 'C:\\laragon\\www\\Sistem-pembayaran\\app\\Views\\Mahasiswa\\Add_mahasiswa.php', 91)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\Sistem-pembayaran\\app\\Views\\Mahasiswa\\Add_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Mahasiswa/Add_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Mahasiswa_controller.php(33): view('Mahasiswa/Add_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->add_data()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Sistem-pembayaran\\public\\index.php')
+INFO - 2024-07-20 18:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 18:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 18:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 18:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 18:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 18:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 22:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 22:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 22:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 22:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 22:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 22:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 22:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 22:52:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 22:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 22:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 22:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 22:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 23:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 23:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 23:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 23:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 23:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 23:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-20 23:25:31 --> Undefined variable $title
+in APPPATH\Views\Layouts\js.php on line 6.
+ 1 APPPATH\Views\Layouts\js.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\laragon\\www\\Sistem-pembayaran\\app\\Views\\Layouts\\js.php', 6)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\Sistem-pembayaran\\app\\Views\\Layouts\\js.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('Layouts/js', null, true)
+ 5 APPPATH\Views\Layouts\Layout.php(18): CodeIgniter\View\View->include('Layouts/js')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\Sistem-pembayaran\\app\\Views\\Layouts\\Layout.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('Layouts/Layout', [], true)
+ 9 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Mahasiswa/Add_mahasiswa', [], true)
+10 APPPATH\Controllers\Mahasiswa_controller.php(33): view('Mahasiswa/Add_mahasiswa', [...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->add_data()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Sistem-pembayaran\\public\\index.php')
+INFO - 2024-07-20 23:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-20 23:25:32 --> Undefined variable $title
+in APPPATH\Views\Layouts\js.php on line 6.
+ 1 APPPATH\Views\Layouts\js.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\laragon\\www\\Sistem-pembayaran\\app\\Views\\Layouts\\js.php', 6)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\Sistem-pembayaran\\app\\Views\\Layouts\\js.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('Layouts/js', null, true)
+ 5 APPPATH\Views\Layouts\Layout.php(18): CodeIgniter\View\View->include('Layouts/js')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\Sistem-pembayaran\\app\\Views\\Layouts\\Layout.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('Layouts/Layout', [], true)
+ 9 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Mahasiswa/Add_mahasiswa', [], true)
+10 APPPATH\Controllers\Mahasiswa_controller.php(33): view('Mahasiswa/Add_mahasiswa', [...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->add_data()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Sistem-pembayaran\\public\\index.php')
+INFO - 2024-07-20 23:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-20 23:25:32 --> Undefined variable $title
+in APPPATH\Views\Layouts\js.php on line 6.
+ 1 APPPATH\Views\Layouts\js.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\laragon\\www\\Sistem-pembayaran\\app\\Views\\Layouts\\js.php', 6)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\Sistem-pembayaran\\app\\Views\\Layouts\\js.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('Layouts/js', null, true)
+ 5 APPPATH\Views\Layouts\Layout.php(18): CodeIgniter\View\View->include('Layouts/js')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\Sistem-pembayaran\\app\\Views\\Layouts\\Layout.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('Layouts/Layout', [], true)
+ 9 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Mahasiswa/List_mahasiswa', [], true)
+10 APPPATH\Controllers\Mahasiswa_controller.php(24): view('Mahasiswa/List_mahasiswa', [...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa_controller->index()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_controller))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Sistem-pembayaran\\public\\index.php')
+INFO - 2024-07-20 23:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 23:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 23:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 23:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 23:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 23:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 23:48:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 23:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 23:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 23:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 23:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 23:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 23:56:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 23:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-20 23:57:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
